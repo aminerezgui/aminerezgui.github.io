@@ -1,0 +1,90 @@
+body
+{
+    height:100vh;
+}
+
+.CityNameOut
+{
+    display:none;
+    font-family: Verdana;
+    color:white;
+    font-size:4em;
+    font-weight:bold;
+}
+.Description
+{
+    display:none;
+    align-self: flex-end;
+    font-family: Verdana;
+    color:white;
+    font-size:2em;
+    font-weight:bold;
+}
+.Temperature
+{
+    display:none;
+    align-self: flex-end;
+    font-family: Verdana;
+    color:white;
+    font-size:2em;
+    font-weight:bold;
+}
+
+
+.C0
+{
+    display:flex;
+    background-color:rgb(3, 252, 107);
+    height: 25%;
+    justify-content:center;
+    align-items:center;
+}
+
+.C1
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:25%;
+    flex-wrap:wrap;
+}
+
+.C20
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.C2
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+    height:25%;
+    width:85%;
+    flex-wrap:wrap;
+}
+
+button
+{
+    background-color:rgb(3, 252, 107);
+    font-family: Verdana;
+    color:white;
+    font-size:1.4em;
+}
+
+.WA
+{
+    font-family: Verdana;
+    color:white;
+    font-size:4.5em;
+    font-weight:bold;
+}
+
+label
+{
+    font-family: Verdana;
+    font-weight:bold;
+}
