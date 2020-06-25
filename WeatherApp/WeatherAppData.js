@@ -34,7 +34,7 @@ function f()
 function searchWeather()
 {
     http = new XMLHttpRequest();
-    url = "http://api.openweathermap.org/data/2.5/weather?q=" + document.querySelector("input").value + "&appid=" + apiKey;
+    url = "https://api.openweathermap.org/data/2.5/weather?q=" + document.querySelector("input").value + "&appid=" + apiKey;
     http.open(method, url);
     http.onreadystatechange = f;
     http.send();
