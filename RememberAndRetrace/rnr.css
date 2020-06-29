@@ -1,0 +1,180 @@
+body
+{
+    height:100vh;
+}
+
+h1
+{
+    text-align:center;
+
+    font-size:2em;
+    font-family: Arial;
+    font-weight:bold;
+
+    width:200px;
+    border-top:solid rgb(77, 145, 255) 4px;
+    margin:auto;
+    margin-bottom:2%;
+
+    background-color:rgb(161, 197, 255);
+    border-radius:4px;
+
+    color:white;
+}
+
+#parent
+{
+    height:60%;
+    width:80%;
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+
+    margin:auto;
+}
+
+.C1
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+
+    width:40%;
+    margin:auto;
+}
+
+.C3
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+
+    width:40%;
+    margin:auto;
+}
+
+.C4
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+
+    margin:auto;
+
+    width:200px;
+    border-radius:4px;
+    margin-top:2%;
+    margin-bottom:2%;
+
+    border-top:solid rgb(77, 145, 255) 4px;
+    background-color:rgb(161, 197, 255);
+    
+}
+
+#facile
+{
+    border-radius:4px;
+    border: solid rgb(255, 171, 69) 1px;
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    background-color:rgb(254, 255, 196);
+    color:rgb(255, 171, 69);
+}
+
+#normal
+{
+    border-radius:4px;
+    border: solid rgb(255, 171, 69) 1px;
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    background-color:rgb(254, 255, 196);
+    color:rgb(255, 171, 69);
+}
+
+#difficult
+{
+    border-radius:4px;
+    border: solid rgb(255, 171, 69) 1px;
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    background-color:rgb(254, 255, 196);
+    color:rgb(255, 171, 69);
+}
+#extreme
+{
+    border-radius:4px;
+    border: solid rgb(255, 171, 69) 1px;
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    background-color:rgb(254, 255, 196);
+    color:rgb(255, 171, 69);
+}
+
+#start
+{
+    border-radius:4px;
+    border: solid blue 1px;
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    background-color:rgb(77, 145, 255);
+    color:white;
+}
+
+#verify
+{
+    border-radius:4px;
+    border: solid blue 1px;
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    background-color:rgb(77, 145, 255);
+    color:white;
+
+}
+
+#retrace
+{
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    text-align:center;
+    color:rgb(77, 145, 255);
+
+}
+
+#result
+{
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    text-align:center;
+    color:whitesmoke;
+}
+
+#score
+{
+    font-size:1.1em;
+    font-family: Arial;
+    font-weight:bold;
+
+    text-align:center;
+    color:whitesmoke;
+}
